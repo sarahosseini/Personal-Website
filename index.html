@@ -1,51 +1,204 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8"
-          name="viewport" 
-          content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0"
-    />
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
-    <link rel="manifest" href="img/site.webmanifest">
-    <link rel="stylesheet" href="./css/App.css">
+	<!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/botui/build/botui.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/botui/build/botui-theme-default.css" /> -->
+    <link rel="stylesheet" href="https://unpkg.com/botui/build/botui.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/botui/build/botui-theme-default.css" />
+	<link rel="stylesheet" href="src/css/app.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="src/img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="src/img/favicon-16x16.png">
 
-    <title>Sara Hosseini</title>
-  </head>
-  <body>
+	<title>Sara Hosseini</title>
+	<meta name="description" content="Sara Hosseini is a Software Engineering student at University of Waterloo passionate about technology, design and helping others.">
+	<meta property="og:title" content="Sara Hosseini">
+  	<meta property="og:image" content="src/img/2019-08-02_11-48-01.png">
+</head>
+<body>
+	<div id="particles-js"></div>
+	<div class="content">
+		<div class="top-card">
+			<div class="container">
+				<div class="logo"></div>
+				<div class="name">
+					<h2 class="head-text">Sara Hosseini</h2>
+				</div>
+				<div class="occupation">
+					<h4 class="para-text">|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Developer&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Designer&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|</h4>
+				</div>
+			</div>
+		</div>
+		<!-- BOT -->
+		<div class="chat-section">
+			<div class="chat">
+				<div class="chatbot">
+					<div id="chatbox">
+						<bot-ui></bot-ui>
+					</div>
+				</div>
+			</div>
+		</div>
 
-      <!-- Welcome Page -->
-
-      <div class="page intro">
-      </div>
-
-      <!-- About Me Page -->
-
-      <div class="page aboutMe">
-        <div class="info">
-          <div class="border">
-            <img src="img/profile.jpg" width=100 />
-          </div>
-          <div class="infoText">
-            <h3>About Me</h3>
-            <p>Hey there! My name is <strong>Sara Hosseini</strong>, a <strong>First Year Software Engineer</strong> at <strong>University of Waterloo</strong>.<br/><br/>You'll most likely find me brainstorming ideas for my next new project, sketching in my book or exploring the city on the hunt for the perfect cafe.<br/><br/>If you would like to know more about me, be sure to check out my <a href="img/Sara_Hosseini_Resume_update.pdf" target="_blank"><strong>resume</strong></a>, <a href="http://github.com/sarahoss" target="_blank"><strong>github</strong></a> or even shoot me an <a href="https://sara.hosseini01@gmail.com" target="_blank"><strong>email</strong></a>! 
-            </p>
-          </div>
-        </div>
-      </div>
-
-      <!-- Contact Me Page -->
-
-      <div class="page links">
-        <div class="linksInfo">
-          <a href="https://linkedin.com/in/sara-hosseini/" target="_blank" class="wow fadeInUp"><i class="fa fa-linkedin-square"></i></a>
-          <a href="https://github.com/sarahosseini" target="_blank" class="wow fadeInUp" data-wow-delay=".2s"><i class="fa fa-github"></i></a>
-          <a href="https://sara.hosseini01@gmail.com" target="_blank" class="wow fadeInUp" data-wow-delay=".5s"><i class="fa fa-envelope"></i></a>
-          <a href="https://dribbble.com/sarahoss" target="_blank" class="wow fadeInUp"><i class="fa fa-dribbble"></i></a>
-        </div>
-      </div>
-  </body>
+		<div class="bottom-card">
+		<!-- SKILLS -->
+			<div class="first-section">
+				<div class="skill">
+					<h3 class="text-top skill-head">SKILLS</h1>
+					<div class="skills technology">
+						<h3 class="text soft">Technology</h3>
+						<div class="align-skills">
+							<div class="skills-text">
+								<li>Microsoft Office</li>
+								<li>Bootstrap</li>
+								<li>JavaScript</li>
+								<li>Git</li>
+								<li>C++</li>
+								<li>C</li>
+								<li>PHP</li>
+								<li>HTML</li>
+								<li>CSS</li>
+								<li>Python</li>
+								<li>Java</li>
+							</div>
+						</div>
+					</div>
+					<div class="skills design">
+						<h3 class="text soft">Design</h3>
+						<div class="align-skills">
+							<div class="skills-text">
+								<li>Figma</li>
+								<li>Sketch</li>
+								<li>Photoshop</li>
+								<li>Illustrator</li>
+								<li>InDesign</li>
+								<li>Marvel</li>
+								<li>Premiere Pro</li>
+							</div>
+						</div>
+					</div>
+					<div class="skills interpersonal">
+						<h3 class="text soft">Interpersonal</h3>
+						<div class="align-skills">
+							<div class="skills-text">
+								<li>Leadership</li>
+								<li>Organization</li>
+								<li>Communication</li>
+								<li>Detail Oriented</li>
+								<li>Problem Solving</li>
+								<li>Time Management</li>
+								<li>Team Building</li>
+								<li>Adaptability</li>
+								<li>Conflict Management</li>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- EXPERIENCE -->
+			<div class="second-section">
+				<div class="experience">
+					<h1 class="text-top">Experience</h1>
+					<div class="experience-card">
+						<h3 class="text soft">Junior Web Developer - AGF Management LTD.</h3>
+						<div class="align-experience">
+							<ul class="experience-text">
+								<li>◉&nbsp;&nbsp;&nbsp;Designed, developed and presented a chart generator, using the Chartist plugin from XML to JavaScript, to display company data on the site used by other teams with no coding knowledge shortening from an hour to a 5 minute process</li>
+								<li>◉&nbsp;&nbsp;&nbsp;Gathered requirements and coded testing scripts in JavaScript to run against unit and regression testing for the backend and frontend team</li>
+								<li>◉&nbsp;&nbsp;&nbsp;Created elements to be used through the three AGF sites using Cascade's CMS</li>
+								<li>◉&nbsp;&nbsp;&nbsp;Communicated directly with Marketing and Studio for website specifications and design changes</li>
+							</ul>
+						</div>
+					</div>
+					<div class="experience-card">
+						<h3 class="text soft">Web Developer - Absolute Home Health Care</h3>
+						<div class="align-experience">
+							<ul class="experience-text">
+								<li>◉&nbsp;&nbsp;&nbsp;Designed specifications, created mockups and updated the current website using PHP and HTML throughout the rebranding process</li>
+								<li>◉&nbsp;&nbsp;&nbsp;Gathered stock information into a spreadsheet and updated products on the site using PHP and HTML to continuously promote flow of sales</li>
+								<li>◉&nbsp;&nbsp;&nbsp;Created elements used throughout the two company sites using Zencart</li>
+							</ul>
+						</div>
+					</div>
+					<div class="experience-card">
+						<h3 class="text soft">Communications / Administrative Assistant - Counterpoint Counselling and Educational Cooperative Inc.</h3>
+						<div class="align-experience">
+							<ul class="experience-text">
+								<li>◉&nbsp;&nbsp;&nbsp;Led a team of students to redesign and update the current website using PHP generating 12% more site traffic</li>
+								<li>◉&nbsp;&nbsp;&nbsp;Created and updated confidential client accounts using Access and Excel improving organization practices in office and saving over $2000 in office supplies and contracted labour expenses</li>
+								<li>◉&nbsp;&nbsp;&nbsp;Designed and created mockups using Figma for brochures and flyers for private and public company events</li>
+							</ul>
+						</div>
+					</div>
+					<div class="experience-card">
+						<h3 class="text soft">Sales Associate - Hudson's Bay</h3>
+						<div class="align-experience">
+							<ul class="experience-text">
+								<li>◉&nbsp;&nbsp;&nbsp;Increased customer satisfaction by regularly interacting with customers to identify their product necessities</li>
+								<li>◉&nbsp;&nbsp;&nbsp;Strived for quick complaint resolutions and commended by supervisor for the ability to resolve problems immediately</li>
+								<li>◉&nbsp;&nbsp;&nbsp;Collaborated with sales team in a fast-paced environment to surpass branch's monthly sales target</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- PROJECTS -->
+			<div class="third-section">
+				<div class="projects">
+					<h1 class="text-top">Projects</h1>
+					<div class="project-container">
+						<div class="align-projects">
+							<a class="projects-card button" href="projects/spending-tracker.html"><div class="button">
+								<h4 class="project-head button">Spending Tracker</h4>
+								<h4 class="project-head-mobile">Spending Tracker</h4>
+								<img class="project-img button" src="src/img/2019-08-02_11-48-01.png">
+							</div></a>
+							<a class="projects-card button" href="projects/personal-website.html"><div class="button">
+								<h4 class="project-head button">Website</h4>
+								<h4 class="project-head-mobile">Website</h4>
+								<img class="project-img button" src="src/img/2019-08-02_11-48-01.png">
+							</div></a>
+						</div>
+						<div class="align-projects">
+							<a class="projects-card button" href="projects/chart-generator.html"><div class="button">
+								<h4 class="project-head button">Chart Generator</h4>
+								<h4 class="project-head-mobile">Chart Generator</h4>
+								<img class="project-img button" src="src/img/2019-08-02_11-48-01.png">
+							</div></a>
+							<a class="projects-card button" href="projects/hattpad.html"><div class="button">
+								<h4 class="project-head button">HattPad</h4>
+								<h4 class="project-head-mobile">HattPad</h4>
+								<img class="project-img button" src="src/img/2019-08-02_11-48-01.png">
+							</div></a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- CONTACT -->
+			<div class="fourth-section">
+				<div class="contact">
+					<!-- <h1 class="text-top">Contact Me</h1> -->
+					<div class="contact-card">
+						<a href="https://linkedin.com/in/sara-hosseini/" target="_blank"><i class="alink fa fa-linkedin-square"></i></a>
+				        <a href="https://github.com/sarahosseini" target="_blank"><i class="alink fa fa-github"></i></a>
+				        <a href="https://sara.hosseini01@gmail.com" target="_blank"><i class="alink fa fa-envelope"></i></a>
+				        <a href="https://dribbble.com/sarahoss" target="_blank"><i class="alink fa fa-dribbble"></i></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript" src="src/js/particles.js"></script>
+	<script type="text/javascript" src="src/js/app.js"></script>
+	<!-- <script src="https://cdn.jsdelivr.net/vue/latest/vue.min.js"></script> -->
+	<script src="https://cdn.jsdelivr.net/vue/2.0.5/vue.min.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/botui/build/botui.js"></script> -->
+    <script type="text/javascript" src="src/js/botui.js"></script>
+    <script type="text/javascript" src="src/js/botui-main.js"></script>
+</body>
 </html>
