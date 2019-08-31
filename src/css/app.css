@@ -352,5 +352,5 @@ body::-webkit-scrollbar-button {
 /* FONT TYPES */
 @font-face {
     font-family: GoodTimes;
-    src: url(../font/goodtimesrg.ttf);
+    src: url(../../font/goodtimesrg.ttf);
 }
